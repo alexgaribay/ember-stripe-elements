@@ -100,6 +100,7 @@ The components bubble up all of [the JavaScript events that can be handled by th
 - `blur`
 - `change` (also sets/unsets the `stripeError` property on the component, which can be yielded with the block)
 - `focus`
+- `ready`
 
 You could handle these actions yourself, for example:
 
